@@ -19,3 +19,9 @@ exclude:
   - readme-draft.md
   - awesome-ai-design-systems.md
   # Keep TABLE.md excluded from direct publishing, but we include it via table.html
+  - TABLE.md
+  # Exclude bundler/vendor directories to prevent Jekyll from reading gem templates
+  - vendor/
+  - vendor/**
+  - Gemfile
+  - Gemfile.lock
