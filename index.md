@@ -1,4 +1,7 @@
-# Awesome AI-Native Design Systems
+---
+layout: page
+title: Awesome AI-Native Design Systems
+---
 
 This is the landing page for the project website. See the dataset and generated table:
 
