@@ -1,9 +1,17 @@
 ---
-layout: page
+layout: home
 title: Awesome AI-Native Design Systems
+description: Curated index of AI-native design systems, UIs, and protocols.
 ---
 
-This is the landing page for the project website. See the dataset and generated table:
+Explore the landscape of AI-native design systems. Browse the full table below or try the interactive explorer for filters and quick search.
+
+- Dataset (source of truth): [data/ai-design-systems.json](data/ai-design-systems.json)
+- Interactive explorer: [Explore](explore.html)
+
+## Full Table
+
+{% include_relative TABLE.md %}
 
 - Dataset (source of truth): [data/ai-design-systems.json](data/ai-design-systems.json)
 - Generated Table: [TABLE.md](TABLE.md)

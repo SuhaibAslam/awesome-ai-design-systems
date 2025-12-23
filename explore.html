@@ -1,0 +1,46 @@
+---
+layout: page
+title: Explore AI Design Systems
+permalink: /explore.html
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/explore.css">
+
+<section class="explore-controls">
+  <input id="search" type="search" placeholder="Search name, org, tags" aria-label="Search" />
+  <select id="typeFilter" aria-label="Filter by type">
+    <option value="">All Types</option>
+  </select>
+  <select id="maturityFilter" aria-label="Filter by maturity">
+    <option value="">All Maturities</option>
+    <option>Production</option>
+    <option>Active</option>
+    <option>Experimental</option>
+    <option>Inactive</option>
+  </select>
+</section>
+
+<section id="results" class="card-grid" aria-live="polite"></section>
+
+<template id="cardTpl">
+  <article class="card">
+    <header>
+      <h3 class="name"></h3>
+      <span class="badge maturity"></span>
+    </header>
+    <p class="org"></p>
+    <p class="type"></p>
+    <p class="features"></p>
+    <p class="integrations"></p>
+    <div class="tags"></div>
+    <footer>
+      <a class="link" target="_blank" rel="noopener noreferrer">Project</a>
+    </footer>
+  </article>
+  </template>
+
+<script>
+  window.SITE_BASEURL = '{{ site.baseurl }}';
+  window.JSON_PATH = window.SITE_BASEURL + '/data/ai-design-systems.json';
+</script>
+<script src="{{ site.baseurl }}/assets/js/explore.js"></script>
