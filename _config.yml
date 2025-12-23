@@ -2,6 +2,8 @@ title: Awesome AI-Native Design Systems
 description: Curated index of AI-native design systems, UIs, and protocols.
 theme: minima
 markdown: kramdown
+url: "https://suhaibaslam.github.io"
+baseurl: "/awesome-ai-design-systems"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
