@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [ main ]
+
+jobs:
+  validate-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Validate dataset
+        run: |
+          python scripts/validate-data.py
+
+      - name: Generate table
+        run: |
+          python scripts/generate-table.py
+
+      - name: Ensure TABLE.md is up-to-date
+        run: |
+          git diff --no-index --quiet TABLE.md TABLE.md || true
+          # Re-run generator and fail if it changes the file
+          BEFORE_HASH=$(sha256sum TABLE.md | awk '{print $1}')
+          python scripts/generate-table.py
+          AFTER_HASH=$(sha256sum TABLE.md | awk '{print $1}')
+          if [ "$BEFORE_HASH" != "$AFTER_HASH" ]; then
+            echo "TABLE.md not up-to-date. Run 'python scripts/generate-table.py' and commit changes.";
+            exit 1;
+          fi

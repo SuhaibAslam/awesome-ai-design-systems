@@ -1,0 +1,16 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: check-json
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+
+  - repo: local
+    hooks:
+      - id: validate-ai-design-systems
+        name: validate ai-design-systems dataset
+        entry: python scripts/validate-data.py
+        language: system
+        types: [json]
+        files: ^data/ai-design-systems\.json$

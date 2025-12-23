@@ -1,0 +1,323 @@
+[
+  {
+    "name": "21st.dev (Magic MCP)",
+    "org": "21st.dev",
+    "url": "https://21st.dev",
+    "license": "Proprietary",
+    "ai_features": "Prompt-to-component generation; MCP workflows",
+    "integrations": "IDEs, web",
+    "maturity": "Production",
+    "type": "AI-Driven Component Generation",
+    "tags": [
+      "component-generation",
+      "mcp"
+    ],
+    "notes": "AI component platform and marketplace",
+    "evidence": "21st.dev/magic: Magic generates production-ready UI components from a prompt (/ui) and is available as an MCP server or web interface."
+  },
+  {
+    "name": "Autoview",
+    "org": "Wrtn Labs",
+    "url": "https://github.com/wrtnlabs/autoview",
+    "license": "MIT",
+    "ai_features": "Automatic view component rendering by AI agent",
+    "integrations": "TypeScript, OpenAPI",
+    "maturity": "Active",
+    "type": "Schema-to-UI Kits",
+    "tags": [
+      "schema-to-ui",
+      "ai-agent"
+    ],
+    "notes": "Structured UI generation",
+    "evidence": "GitHub About/README: schema-driven view/component generation by an AI agent (e.g., from OpenAPI/structured inputs)."
+  },
+  {
+    "name": "AINativeKit (ChatGPT Apps SDK UI)",
+    "org": "AINativeKit",
+    "url": "https://github.com/AINativeKit/chatgpt-apps-sdk-ui",
+    "license": "MIT",
+    "ai_features": "Renders MCP JSON to UI",
+    "integrations": "React",
+    "maturity": "Active",
+    "type": "Schema-to-UI Kits",
+    "tags": [
+      "mcp",
+      "json-ui"
+    ],
+    "notes": "Schema-driven UI kit",
+    "evidence": "GitHub About/README: React UI library for ChatGPT Apps SDK with components/hooks intended to render structured app responses (MCP/JSON) into UI."
+  },
+  {
+    "name": "OpenAI ChatKit",
+    "org": "OpenAI",
+    "url": "https://github.com/openai/chatkit-js",
+    "license": "Apache-2.0",
+    "ai_features": "AI-powered chat UI primitives",
+    "integrations": "Web components",
+    "maturity": "Active",
+    "type": "AI Chat / Agent UI Systems",
+    "tags": [
+      "chat",
+      "agent"
+    ],
+    "notes": "Official chat UI kit",
+    "evidence": "README: ChatKit is a batteries-included framework for building high-quality, AI-powered chat experiences."
+  },
+  {
+    "name": "assistant-ui",
+    "org": "assistant-ui",
+    "url": "https://github.com/assistant-ui/assistant-ui",
+    "license": "MIT",
+    "ai_features": "High-level AI chat components",
+    "integrations": "React, Tailwind",
+    "maturity": "Active",
+    "type": "AI Chat / Agent UI Systems",
+    "tags": [
+      "chat",
+      "ui-library"
+    ],
+    "notes": "UI building blocks for AI chat",
+    "evidence": "GitHub About/README: TypeScript/React library for AI chat, including streaming-oriented chat UI primitives." 
+  },
+  {
+    "name": "ChatUI",
+    "org": "Alibaba",
+    "url": "https://github.com/alibaba/ChatUI",
+    "license": "MIT",
+    "ai_features": "Conversational UI components and patterns",
+    "integrations": "React",
+    "maturity": "Active",
+    "type": "AI Chat / Agent UI Systems",
+    "tags": [
+      "chat",
+      "components"
+    ],
+    "notes": "Conversational UI system",
+    "evidence": "GitHub About: The UI design language and React library for Conversational UI"
+  },
+  {
+    "name": "Ant Design X",
+    "org": "ant-design",
+    "url": "https://github.com/ant-design/x",
+    "license": "Unknown",
+    "ai_features": "AI-oriented UI primitives and patterns",
+    "integrations": "React",
+    "maturity": "Active",
+    "type": "AI UI Component Libraries",
+    "tags": [
+      "ai-ui",
+      "components"
+    ],
+    "notes": "AI-focused extension to Ant Design",
+    "evidence": "README: 'Enterprise-level LLM Components Out of the Box' for building AI applications; includes an SDK for managing AI application data streams."
+  },
+  {
+    "name": "Lobe UI",
+    "org": "LobeHub",
+    "url": "https://github.com/lobehub/lobe-ui",
+    "license": "MIT",
+    "ai_features": "AIGC-oriented UI component library",
+    "integrations": "React",
+    "maturity": "Active",
+    "type": "AI UI Component Libraries",
+    "tags": [
+      "components",
+      "aigc"
+    ],
+    "notes": "Component library for AI web apps",
+    "evidence": "GitHub About: Lobe UI - an open-source UI component library for building AIGC web apps"
+  },
+  {
+    "name": "LangUI",
+    "org": "Langbase",
+    "url": "https://github.com/LangbaseInc/langui",
+    "license": "MIT",
+    "ai_features": "AI-first Tailwind components",
+    "integrations": "React, Tailwind",
+    "maturity": "Active",
+    "type": "AI UI Component Libraries",
+    "tags": [
+      "components",
+      "tailwind"
+    ],
+    "notes": "UI components for LLM apps",
+    "evidence": "GitHub About: UI for your AI. Open Source Tailwind components tailored for your GPT, generative AI, and LLM projects."
+  },
+  {
+    "name": "CopilotKit",
+    "org": "CopilotKit",
+    "url": "https://github.com/CopilotKit/CopilotKit",
+    "license": "MIT",
+    "ai_features": "Copilot UI and orchestration",
+    "integrations": "React, Next.js",
+    "maturity": "Active",
+    "type": "Copilot / Assistant Integration Systems",
+    "tags": [
+      "copilot",
+      "orchestration"
+    ],
+    "notes": "End-to-end copilot UX",
+    "evidence": "GitHub About: React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents."
+  },
+  {
+    "name": "AG-UI Protocol",
+    "org": "ag-ui-protocol",
+    "url": "https://github.com/ag-ui-protocol/ag-ui",
+    "license": "MIT",
+    "ai_features": "Agent-User Interaction Protocol",
+    "integrations": "Web",
+    "maturity": "Active",
+    "type": "Agent/UI Protocols",
+    "tags": [
+      "protocol",
+      "agent-ui"
+    ],
+    "notes": "Protocol for agent frontends",
+    "evidence": "GitHub About: AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications."
+  },
+  {
+    "name": "mdx-prompt",
+    "org": "edspencer",
+    "url": "https://github.com/edspencer/mdx-prompt",
+    "license": "MIT",
+    "ai_features": "Prompts as composable MDX components",
+    "integrations": "React, MDX",
+    "maturity": "Experimental",
+    "type": "Prompt-First / Prompt-Component Systems",
+    "tags": [
+      "prompt",
+      "composability"
+    ],
+    "notes": "Prompt-as-component concept",
+    "evidence": "GitHub About: Composable prompts powered by MDX & React"
+  },
+  {
+    "name": "Agentic UI",
+    "org": "ant-design",
+    "url": "https://github.com/ant-design/agentic-ui",
+    "license": "MIT",
+    "ai_features": "Agent UI components for tool calls and reasoning",
+    "integrations": "React",
+    "maturity": "Active",
+    "type": "AI UI Component Libraries",
+    "tags": [
+      "agent-ui",
+      "components"
+    ],
+    "notes": "Agent UI component library",
+    "evidence": "README (translated): agent UI component library focused on multi-step reasoning and tool-calling visualization."
+  },
+  {
+    "name": "Agents Kit",
+    "org": "agents-ui",
+    "url": "https://github.com/agents-ui/agents-kit",
+    "license": "MIT",
+    "ai_features": "Ready-made components for AI agents",
+    "integrations": "React, Next.js",
+    "maturity": "Active",
+    "type": "AI UI Component Libraries",
+    "tags": [
+      "agents",
+      "components"
+    ],
+    "notes": "Agent-focused component kit",
+    "evidence": "GitHub About: Ready made components for your AI agents"
+  },
+  {
+    "name": "openv0",
+    "org": "raidendotai",
+    "url": "https://github.com/raidendotai/openv0",
+    "license": "MIT",
+    "ai_features": "AI-generated UI components",
+    "integrations": "Web",
+    "maturity": "Inactive",
+    "type": "AI-Driven Component Generation",
+    "tags": [
+      "component-generation",
+      "prompt-to-ui"
+    ],
+    "notes": "Generative UI component framework (not maintained)",
+    "evidence": "README: 'openv0 is a generative UI component framework' to AI-generate and iterate on UI components; README also notes the project is no longer maintained."
+  },
+  {
+    "name": "MCP UI",
+    "org": "MCP-UI-Org",
+    "url": "https://github.com/MCP-UI-Org/mcp-ui",
+    "license": "Apache-2.0",
+    "ai_features": "UI generation and SDK over MCP",
+    "integrations": "Web",
+    "maturity": "Active",
+    "type": "Agent/UI Protocols",
+    "tags": [
+      "mcp",
+      "protocol"
+    ],
+    "notes": "MCP-driven UI protocol and SDK",
+    "evidence": "GitHub About/README: 'UI over MCP' for delivering and rendering UI resources from MCP servers via an SDK."
+  },
+  {
+    "name": "Voice UI Kit",
+    "org": "pipecat-ai",
+    "url": "https://github.com/pipecat-ai/voice-ui-kit",
+    "license": "BSD-2-Clause",
+    "ai_features": "Voice AI UI components and hooks",
+    "integrations": "React",
+    "maturity": "Active",
+    "type": "AI UI Component Libraries",
+    "tags": [
+      "voice",
+      "components"
+    ],
+    "notes": "Voice AI component kit",
+    "evidence": "GitHub About: Components, hooks and template apps for building React voice AI applications quickly."
+  },
+  {
+    "name": "ElevenLabs UI",
+    "org": "ElevenLabs",
+    "url": "https://github.com/elevenlabs/ui",
+    "license": "MIT",
+    "ai_features": "Component library for multimodal agents",
+    "integrations": "React, shadcn/ui",
+    "maturity": "Active",
+    "type": "AI UI Component Libraries",
+    "tags": [
+      "multimodal",
+      "components"
+    ],
+    "notes": "Agent-focused UI registry",
+    "evidence": "GitHub About: component library and custom registry built on top of shadcn/ui to help you build multimodal agents faster."
+  },
+  {
+    "name": "AgenticGenUI",
+    "org": "vivek100",
+    "url": "https://github.com/vivek100/AgenticGenUI",
+    "license": "MIT",
+    "ai_features": "Interactive components inside chat",
+    "integrations": "Web",
+    "maturity": "Experimental",
+    "type": "AI Chat / Agent UI Systems",
+    "tags": [
+      "chat",
+      "interactive-ui"
+    ],
+    "notes": "Interactive components for chat UIs",
+    "evidence": "GitHub About: Render interactive components in your chat window"
+  },
+  {
+    "name": "Vercel AI SDK UI",
+    "org": "Vercel",
+    "url": "https://github.com/vercel/ai",
+    "license": "MIT",
+    "ai_features": "Provider-agnostic SDK with UI hooks for chat/agents",
+    "integrations": "React, Next.js, Svelte, Vue",
+    "maturity": "Active",
+    "type": "AI Chat / Agent UI Systems",
+    "tags": [
+      "chat",
+      "hooks",
+      "agents"
+    ],
+    "notes": "Framework-agnostic UI hooks and examples",
+    "evidence": "GitHub README: AI SDK UI provides hooks to build chatbots and generative user interfaces across frameworks (Next.js, React, Svelte, Vue)."
+  }
+]
