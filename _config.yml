@@ -9,6 +9,7 @@ plugins:
   - jekyll-seo-tag
 header_pages:
   - explore.html
+  - table.html
 exclude:
   - AGENTS.md
   - docs/
@@ -17,4 +18,4 @@ exclude:
   - LICENSE
   - readme-draft.md
   - awesome-ai-design-systems.md
-  - TABLE.md
+  # Keep TABLE.md excluded from direct publishing, but we include it via table.html

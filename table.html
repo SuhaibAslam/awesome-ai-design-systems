@@ -1,0 +1,12 @@
+---
+layout: page
+title: Full Table
+permalink: /table.html
+description: Rendered table of all AI design system entries.
+---
+
+{% capture table_md %}
+{% include_relative TABLE.md %}
+{% endcapture %}
+
+{{ table_md | markdownify }}
