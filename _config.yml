@@ -7,3 +7,14 @@ baseurl: "/awesome-ai-design-systems"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+header_pages:
+  - explore.html
+exclude:
+  - AGENTS.md
+  - docs/
+  - CONTRIBUTING.md
+  - README.md
+  - LICENSE
+  - readme-draft.md
+  - awesome-ai-design-systems.md
+  - TABLE.md
